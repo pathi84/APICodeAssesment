@@ -1,0 +1,5 @@
+C:\Users\Ashish\source\repos\Solution1\demoAPI.Test.Unit\obj\Debug\net6.0\demoAPI.Test.Unit.csproj.AssemblyReference.cache
+C:\Users\Ashish\source\repos\Solution1\demoAPI.Test.Unit\obj\Debug\net6.0\demoAPI.Test.Unit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish\source\repos\Solution1\demoAPI.Test.Unit\obj\Debug\net6.0\demoAPI.Test.Unit.AssemblyInfoInputs.cache
+C:\Users\Ashish\source\repos\Solution1\demoAPI.Test.Unit\obj\Debug\net6.0\demoAPI.Test.Unit.AssemblyInfo.cs
+C:\Users\Ashish\source\repos\Solution1\demoAPI.Test.Unit\obj\Debug\net6.0\demoAPI.Test.Unit.csproj.CoreCompileInputs.cache
