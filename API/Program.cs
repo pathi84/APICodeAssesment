@@ -13,12 +13,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularOrigins",
     builder =>
     {
-        builder.WithOrigins(
-                            "http://localhost:4200"
-                            )
-                            .AllowAnyHeader()
-                            .AllowAnyMethod()
-                            .AllowAnyOrigin();
+        builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
     });
 });
 
@@ -41,7 +36,8 @@ var app = builder.Build();
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("./v1/swagger.json", "v1");
+        options.SwaggerEndpoint("./swagger/v1/swagger.json", "v1");
+        options.RoutePrefix = string.Empty;
     });
 //}
 
